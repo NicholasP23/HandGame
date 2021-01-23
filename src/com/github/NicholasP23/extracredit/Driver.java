@@ -16,6 +16,7 @@ public class Driver {
                 System.out.print("enter a positive number (<1)");
                 counter = play.nextInt();
             }
+
             do {
 
                 System.out.print("Please pick a hand choice: ");
@@ -23,8 +24,8 @@ public class Driver {
 
                 while (
                         !userInput.equalsIgnoreCase("rock") &&
-                                !userInput.equalsIgnoreCase("paper") &&
-                                !userInput.equalsIgnoreCase("scissors")
+                        !userInput.equalsIgnoreCase("paper") &&
+                        !userInput.equalsIgnoreCase("scissors")
                 ) {
                     System.out.println("Wrong input, please chose: rock, paper, or scissors");
                     userInput = choice.next();
